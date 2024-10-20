@@ -68,7 +68,7 @@ class NitroGen:
                 break
             except Exception as e:
                 print(f" Error | {url} ")
-        print(f'Valid Codes: {', '.join(valid)}')
+        print(f"Valid Codes: {', '.join(valid)}")
 
     def quickChecker(self, nitro: str):
         url = f"https://discordapp.com/api/v9/entitlements/gift-codes/{nitro}?with_application=false&with_subscription_plan=true"
